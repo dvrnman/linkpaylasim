@@ -26,73 +26,74 @@
 <body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
 	<div class="d-flex flex-row-reverse container navbarlink">
 		<div class="p-2"><a href=""><i class="fa-solid fa-right-from-bracket navbarlinka"></i></a></div>
-		<div class="p-2"><a href=""><i class="fa-solid fa-gear navbarlinka "></i></a></div>
-		<div class="p-2"><a href=""><i class="fa-solid fa-user navbarlinka"></i></a></div>
+		<div class="p-2"><a href="setting.html"><i class="fa-solid fa-gear navbarlinka "></i></a></div>
+		<div class="p-2"><a href="user.html"><i class="fa-solid fa-user navbarlinka"></i></a></div>
+
 
 	</div>
-	<section class="ftco-section">
 
-		<div class="container">
 
-			<div class="row justify-content-center">
-				<div class="col-md-6 text-center mb-5">
-					<!--<h2 class="heading-section">Login #10</h2> -->
-				</div>
+	<div class="container">
+
+		<div class="row justify-content-center">
+			<div class="col-md-6 text-center mb-5">
+				<!--<h2 class="heading-section">Login #10</h2> -->
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-6 col-lg-4">
-					<div class="login-wrap p-0">
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6 col-lg-4">
+				<div class="login-wrap p-0">
 
 
-						<div class="form-group text-center">
-							<img class="userfoto" src="images/user.jpg" alt="">
+					<div class="form-group text-center">
+						<img class="userfoto" src="images/user.jpg" alt="">
+					</div>
+					<div class="form-group  text-center">
+						<a href="#" style="color: #fff">@dvvrn</a>
+
+					</div>
+					<div class="form-group  text-center">
+						<small>20 Eylülde 2024 katıldınız</small>
+					</div>
+					<!-- Sağa yaslanmış silme ikonu -->
+
+					<div class="d-flex bd-highlight mb-5 buttonlink  ">
+						<div class="p-2 w-100 bd-highlight   "><a href="">Twitter</a></div>
+						<div class="p-2 flex-shrink-1 bd-highlight   "><a href="#" class="delete-icon">
+								<i class="fas fa-trash"></i>
+							</a></div>
+					</div>
+
+
+
+
+
+
+					<div class="form-group  text-center">
+
+						<button id="toggleButton"
+							class="form-control btn btn-primary submit px-3 form-group  text-center">Yeni Link
+							Ekle</button>
+
+						<div id="textbox1" class="hidden  form-group ">
+							<input type="text" placeholder="Site İsmi" class="form-control">
 						</div>
-						<div class="form-group  text-center">
-							<a href="#" style="color: #fff">@dvvrn</a>
-
+						<div id="textbox2" class="hidden form-group  ">
+							<input type="text" placeholder="Site Linki" class="form-control">
 						</div>
-						<div class="form-group  text-center">
-							<small>20 Eylülde 2024 katıldınız</small>
-						</div>
-						<!-- Sağa yaslanmış silme ikonu -->
-
-						<div class="d-flex bd-highlight mb-5 buttonlink  ">
-							<div class="p-2 w-100 bd-highlight   "><a href="">Twitter</a></div>
-							<div class="p-2 flex-shrink-1 bd-highlight   "><a href="#" class="delete-icon">
-									<i class="fas fa-trash"></i>
-								</a></div>
-						</div>
-
-
-
-
-
-
-						<div class="form-group  text-center">
-
-							<button id="toggleButton"
-								class="form-control btn btn-primary submit px-3 form-group  text-center">Yeni Link
-								Ekle</button>
-
-							<div id="textbox1" class="hidden  form-group ">
-								<input type="text" placeholder="Site İsmi" class="form-control">
-							</div>
-							<div id="textbox2" class="hidden form-group  ">
-								<input type="text" placeholder="Site Linki" class="form-control">
-							</div>
-							<button id="submitButton" class="hidden form-control btn btn-danger submit  ">Ekle</button>
-
-
-						</div>
-
-
+						<button id="submitButton" class="hidden form-control btn btn-danger submit  ">Ekle</button>
 
 
 					</div>
+
+
+
+
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+
 	<script src="js/user.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.js"></script>
