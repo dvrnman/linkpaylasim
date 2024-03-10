@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 	<style>
 		.hidden {
 			display: none;
@@ -22,8 +24,16 @@
 </head>
 
 <body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+	<div class="d-flex flex-row-reverse container navbarlink">
+		<div class="p-2"><a href=""><i class="fa-solid fa-right-from-bracket navbarlinka"></i></a></div>
+		<div class="p-2"><a href=""><i class="fa-solid fa-gear navbarlinka "></i></a></div>
+		<div class="p-2"><a href=""><i class="fa-solid fa-user navbarlinka"></i></a></div>
+
+	</div>
 	<section class="ftco-section">
+
 		<div class="container">
+
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
 					<!--<h2 class="heading-section">Login #10</h2> -->
@@ -44,29 +54,33 @@
 						<div class="form-group  text-center">
 							<small>20 Eylülde 2024 katıldınız</small>
 						</div>
-						<div class="form-group  text-center">
+						<!-- Sağa yaslanmış silme ikonu -->
 
-
-							<button class="form-control btn btn-primary submit px-3 link-style"><a
-									href="">Resimler</a></button>
-
-
+						<div class="d-flex bd-highlight mb-5 buttonlink  ">
+							<div class="p-2 w-100 bd-highlight   "><a href="">Twitter</a></div>
+							<div class="p-2 flex-shrink-1 bd-highlight   "><a href="#" class="delete-icon">
+									<i class="fas fa-trash"></i>
+								</a></div>
 						</div>
+
+
+
+
+
 
 						<div class="form-group  text-center">
 
 							<button id="toggleButton"
-								class="form-control btn btn-primary submit px-3 form-group  text-center">Link
+								class="form-control btn btn-primary submit px-3 form-group  text-center">Yeni Link
 								Ekle</button>
 
-							<div id="textbox1" class="hidden  form-group  text-center">
+							<div id="textbox1" class="hidden  form-group ">
 								<input type="text" placeholder="Site İsmi" class="form-control">
 							</div>
-							<div id="textbox2" class="hidden form-group  text-center">
+							<div id="textbox2" class="hidden form-group  ">
 								<input type="text" placeholder="Site Linki" class="form-control">
 							</div>
-							<button id="submitButton"
-								class="hidden form-control btn btn-primary submit px-3">Ekle</button>
+							<button id="submitButton" class="hidden form-control btn btn-danger submit  ">Ekle</button>
 
 
 						</div>

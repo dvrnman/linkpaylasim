@@ -8343,9 +8343,9 @@ textarea.form-control {
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fbceb5 !important;
+    background: #ffffff54 !important;
     border: 1px solid #fbceb5 !important;
-    color: #000 !important; }
+    color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #fbceb5;
       background: transparent;
@@ -8359,18 +8359,22 @@ textarea.form-control {
         background: #fbceb5;
         color: #fff; }
 
+ .buttonlink
+ {
+   background: #ffffff54 !important;
+   border: 1px solid #fbceb5 !important;
+   box-shadow: none !important;
+   border-radius: 10px;
 
-       .link-style 
-       {
-        cursor: pointer;
-        border-radius: 40px;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        font-size: 15px;
-        text-transform: uppercase;
-       background: linear-gradient(to right, #fbceb5, #7c858a); /* İki renk arasındaki geçiş */
-     list-style-type: none;
-
-       }
-       /* ul etrafındaki boşlukları sıfırla */
- 
+ }
+ .buttonlink a{
+   color: #000000 !important;
+ }
+ .navbarlink
+ {
+  color:#000000 !important; 
+ }
+ .navbarlinka
+ {
+  color: #000 !important;
+ }
